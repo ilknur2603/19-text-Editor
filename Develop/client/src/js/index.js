@@ -3,6 +3,7 @@ import Editor from './editor';
 import './database';
 import '../css/style.css';
 
+import  {getDb, putDb } from './database';
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
