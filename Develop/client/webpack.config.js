@@ -2,7 +2,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
-
+//ADDED
+const { SourceMapDevToolPlugin } = require("webpack");
 
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
@@ -25,6 +26,10 @@ module.exports=()=> {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Jate'
+      }),
+  //ADDED
+      new SourceMapDevToolPlugin({
+        filename: "[file].map"
       }),
     
     
@@ -62,6 +67,11 @@ module.exports=()=> {
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.js$/,
+          enforce: 'pre',
+          use: ['source-map-loader'],
         },
         {
           test: /\.m?js$/,
