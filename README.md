@@ -1,4 +1,17 @@
 # 19 Progressive Web Applications (PWA): Text Editor
+![License](https://img.shields.io/badge/License%3A-MIT-green)
+# Table of Contents
+
+* #1.  [Description](#description)
+* #2.  [Technologies Used](#technologies-used)
+* #3.  [Installation](#installation)
+* #4.  [Usage](#usage)
+* #5.  [License](#license)
+* #6.  [Testing Instructions](#testing-instructions)
+* #7.  [User Story](#User-Story)
+* #8.  [Questions](#questions)
+* <br>
+----
 
 ## Your Task
 
@@ -54,90 +67,20 @@ The following animation demonstrates the application functionality:
 
 ![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
 
-The following image shows the application's `manifest.json` file:
+![app-dowload](https://github.com/ilknur2603/19-text-Editor/blob/main/assets/app-dowload.png)
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
 
-The following image shows the application's registered service worker:
+<br>
+---
+![Questions](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+<br>
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)      https://github.com/ilknur2603/
+***
+![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)        ilknurdayanc2603@gmail.com/
+***
+![Linkedn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) https://www.linkedin.com/feed/?trk=404_page/
+***
+![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)   https://twitter.com/home/
+***
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)         **ILKNUR DAYANC BLOOMER
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
-
-The following image shows the application's IndexedDB storage:
-
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
-
-  * The application works without an internet connection
-
-  * Automatically saves content inside the text editor when the DOM window is unfocused
-
-  * Bundled with webpack
-
-  * Create a service worker with workbox that Caches static assets
-
-  * The application should use babel in order to use async / await
-
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
-
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-# 19-text-Editor
