@@ -13,15 +13,21 @@
 * <br>
 ----
 
-## Your Task
+## Description
 
 As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
 
 Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
 To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+#Technologies Used
+<br>
+#installation
+# Usage
+![indexedDB](https://github.com/ilknur2603/19-text-Editor/blob/main/assets/indexedDB.gif)
+![manifest.gif](https://github.com/ilknur2603/19-text-Editor/blob/main/assets/manifest.gif)
+![app-dowload](https://github.com/ilknur2603/19-text-Editor/blob/main/assets/app-dowload.png)
+![service workers.png](https://github.com/ilknur2603/19-text-Editor/blob/main/assets/service%20workers.png)
 
 ## User Story
 
@@ -61,26 +67,24 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
-
-![app-dowload](https://github.com/ilknur2603/19-text-Editor/blob/main/assets/app-dowload.png)
 
 
 <br>
 ---
-![Questions](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+<br>
+[Questions](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 <br>
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)      https://github.com/ilknur2603/
 ***
+<br>
 ![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)        ilknurdayanc2603@gmail.com/
+<br>
 ***
 ![Linkedn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) https://www.linkedin.com/feed/?trk=404_page/
+<br>
 ***
 ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)   https://twitter.com/home/
+<br>
 ***
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)         **ILKNUR DAYANC BLOOMER
 
