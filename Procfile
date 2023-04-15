@@ -1,1 +1,1 @@
-web: node server.js
+web: node run client&&node server.js
