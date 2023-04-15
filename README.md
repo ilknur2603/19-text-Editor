@@ -71,13 +71,7 @@ THEN I should have proper build scripts for a webpack application
 
 <br>
 ---
-<br>
-![Questions](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
-<br>
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) =     https://github.com/ilknur2603
 
-<br>
-![E-mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)   =     ilknurdayanc2603@gmail.com
 <br>
 
 ![Linkedn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)= https://www.linkedin.com/feed/?trk=404_page/
